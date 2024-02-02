@@ -24,27 +24,11 @@ let vdata = [
       verified: false,
     },
     {
-      id: 34,
-      title: "JavaScript Crash Course",
-      views: "50K",
-      time: "2 years ago",
-      channel: "JS Wizards",
-      verified: true,
-    },
-    {
       id: 45,
       title: "Data Science for Beginners",
       views: "18K",
       time: "1.5 years ago",
       channel: "DataExplorers",
-      verified: false,
-    },
-    {
-      id: 66,
-      title: "UI/UX Design Principles",
-      views: "12K",
-      time: "9 months ago",
-      channel: "DesignInspirations",
       verified: true,
     },
   ];
