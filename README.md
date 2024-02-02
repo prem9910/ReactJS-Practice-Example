@@ -1,1 +1,1 @@
-# ReactJs Practice Example 2024
+# Map Filter Reduce Function Practice
