@@ -1,5 +1,5 @@
-# Map Filter Reduce Function Practice
-# Array Transformation Functions
+# Map, Filter and Reduce Functions Practice
+
 
 ## Introduction
 
