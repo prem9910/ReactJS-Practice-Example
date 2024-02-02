@@ -53,8 +53,5 @@ Clone this repository and explore the examples.js file for more in-depth usage a
 
 Feel free to contribute and add more examples or improvements!
 
-### License
-
-This project is licensed under the MIT License. Feel free to use and modify the code according to the terms specified in the license.
 
 This README provides a brief introduction to `map`, `filter`, and `reduce` functions, along with examples to illustrate their usage. It also invites contributors to explore more examples in the `examples.js` file and outlines the project's license.
