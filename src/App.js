@@ -24,20 +24,21 @@ function App() {
           <div>
             <PlayButton
               name="Click it"
-              onClick={() => alert("Play")}
-              msg="Play button is Clicked"
+              onPlay={() => console.log("Play")}
+              onPause={() => console.log("Paused")}
+              
             >
               Play
             </PlayButton>
           </div>
           <div>
-            <PlayButton
+            {/* <PlayButton
               name="Click it"
               onClick={() => alert("Paused")}
               msg="Pause button is Clicked"
             >
               Pause
-            </PlayButton>
+            </PlayButton> */}
           </div>
         </div>
       </div>
