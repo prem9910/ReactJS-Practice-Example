@@ -22,15 +22,7 @@ let vdata = [
       time: "8 months ago",
       channel: "PyMasters",
       verified: false,
-    },
-    {
-      id: 45,
-      title: "Data Science for Beginners",
-      views: "18K",
-      time: "1.5 years ago",
-      channel: "DataExplorers",
-      verified: true,
-    },
+    }
   ];
 
   export default vdata;
