@@ -1,6 +1,14 @@
 import "./Video.css";
 
-function Video({ title, channel="not available",id, verified, views, time }) {
+function Video({
+  title,
+  channel = "not available",
+  id,
+  verified,
+  views,
+  time,
+  children,
+}) {
   return (
     <>
       <div className="container">
@@ -8,13 +16,17 @@ function Video({ title, channel="not available",id, verified, views, time }) {
           <img
             src={`https://picsum.photos/id/${id}/200/130`}
             alt="Youtube Videos"
-            
           />
         </div>
         <div className="title">{title}</div>
-        <div className="channel">{channel} {verified && '✅' }</div>
+        <div className="channel">
+          {channel} {verified && "✅"}
+        </div>
         <div className="views">
           {views} views <span>.</span> {time}
+        </div>
+        <div>
+          {children}
         </div>
       </div>
     </>

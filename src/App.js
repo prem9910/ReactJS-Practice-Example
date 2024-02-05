@@ -5,7 +5,7 @@ import vdata from "./data/data";
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App" onClick={()=>console.log("this is app")}>
         <div className="second-row">
           <div className="heading">YouTube Videos</div>
           {vdata.map((video) => (
@@ -17,20 +17,18 @@ function App() {
               channel={video.channel}
               views={video.views}
               time={video.time}
-            ></Video>
+            >
+              <PlayButton
+                
+                onPlay={() => console.log("Play",video.title)}
+                onPause={() => console.log("Paused",video.title)}
+              >
+                {video.title}
+              </PlayButton>
+            </Video>
           ))}
         </div>
         <div className="btn">
-          <div>
-            <PlayButton
-              name="Click it"
-              onPlay={() => console.log("Play")}
-              onPause={() => console.log("Paused")}
-              
-            >
-              Play
-            </PlayButton>
-          </div>
           <div>
             {/* <PlayButton
               name="Click it"
