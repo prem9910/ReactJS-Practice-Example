@@ -6,10 +6,14 @@ function AddVideo() {
 
     }
 
+    function handleChange(e){
+      console.log(e.target.value)
+    }
+
   return (
     <form action="">
-      <input type="text" placeholder="Video title" />
-      <input type="text" placeholder="Channel Name" />
+      <input type="text" name='title' onChange={handleChange} placeholder="Video title" />
+      <input type="text" name='channel' onChange={handleChange} placeholder="Channel Name" />
       <button onClick={handleSubmit}>Add Video</button>
     </form>
   );
